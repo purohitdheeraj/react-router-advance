@@ -11,7 +11,7 @@ const ProductDetail = () => {
 
 	return (
 		<div>
-			<Link to="..">Back to products </Link>
+			<Link to="..">Back to products</Link>
 			<h3>ProductDetail</h3>
 			<h4>title : {productData.title}</h4>
 			<img src={productData.image} />
